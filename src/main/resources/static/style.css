@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    height: 100svh;
+}
+
+body > * {
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 0.5rem;
+}
+
+table {
+    border: 1px solid darkgray;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 0.3rem 0.6rem;
+}
+
+th {
+    background: rgba(123, 225, 107, 0.2);
+}
+
+
+tr:nth-child(odd) {
+    background-color: #f4f9f0;
+}
+
+tr:nth-child(even) {
+    background-color: #fdfffc;
+}
+
+button {
+    padding: 0.44rem 0.6rem;
+    background: white;
+    border: 1px solid darkgray;
+    border-radius: 0.3rem;
+}
+
+#backendcall {
+    margin-bottom: 1rem;
+
+}
